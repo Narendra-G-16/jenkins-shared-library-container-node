@@ -3,7 +3,7 @@ def call() {
 
     sh '''
         echo "Updating package list..."
-        sudo apt-get update -y
+        apt-get update -y
 
         echo "Installing vim..."
         apt-get install -y vim
