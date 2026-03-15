@@ -6,7 +6,7 @@ def call() {
         sudo apt-get update -y
 
         echo "Installing vim..."
-        sudo apt-get install -y vim
+        apt-get install -y vim
 
         echo "Vim installation completed"
     '''
